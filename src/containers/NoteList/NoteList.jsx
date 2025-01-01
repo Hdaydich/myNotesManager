@@ -18,7 +18,7 @@ export function NoteList({ noteList }) {
     <div className={`row justify-content-center ${s.div}`}>
       {noteList.map((note) => {
         return (
-          <div key={note.id} className={`col-4 ${s.card_container}`}>
+          <div key={note.id} className={`col-3 ${s.card_container}`}>
             <TextCard
               title={note.title}
               subtitle={note.created_at}

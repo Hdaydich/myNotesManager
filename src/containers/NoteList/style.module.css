@@ -1,8 +1,10 @@
 .card_container {
-    /* width: 30%; */
-    margin: 15px;
-    display: flex;
+    flex-grow: 1;
+    width: 30%;
+    margin: 10px;
+    
   }
   .div {
     display: flex;
+flex-wrap: wrap;
 }
