@@ -1,9 +1,10 @@
 {
-  "notes": [{
-    "title": "React - Props",
-    "content": "Welcome to your notes manager",
-    "created_at": "31/12/2024",
-    "id": 2
-  }
+  "notes": [
+        {
+      "id": "314e",
+      "title": "Hello",
+      "content": "Welcome to your notes manager!",
+      "created_at": "01/01/2025"
+    }
 ]
 }
