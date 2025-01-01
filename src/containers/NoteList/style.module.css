@@ -8,3 +8,16 @@
   flex-wrap: wrap;
   margin: 0 auto;
 }
+
+
+@media only screen and (max-width: 991px) {  
+  .card_container {
+    width: 80%;
+  margin: 10 auto;
+    
+  }
+  .div {
+  flex-wrap:none;
+  margin: 0 auto;
+}
+}
