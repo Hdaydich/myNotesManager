@@ -1,0 +1,37 @@
+.logo_txt {
+    font-size: 30px;
+    font-weight: 700;
+    color: #0d6efd;
+    padding-left: 10px;
+}
+
+.container {
+    
+   /* Otherwise the clickable area for the logo is to wide */
+    display: flex;
+    cursor: pointer;
+}
+
+.img {
+    height: 100px;
+    margin: 0px auto;
+}
+
+.subtitle {
+    
+    margin: 0px auto;
+    color: #b8b8b8;
+    word-wrap: break-word;
+   text-align: center;
+   align-items: center;
+   text-transform: uppercase;
+}
+
+@media only screen and (max-width: 991px) {  
+    .img {
+        height: 70px;
+    }
+    .subtitle {
+      font-size: smaller;
+    }
+}
