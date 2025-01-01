@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = '/tm/db.json';
+const BASE_URL = './tm/db.json';
 
 export class NoteAPI {
   static async create(note) {
