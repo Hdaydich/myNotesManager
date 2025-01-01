@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:4000/notes";
+const BASE_URL = "https://github.com/Hdaydich/myNotesManager/blob/ede3f3217857246fa94fe69bff7995c6559d3207/public/db.json/notes";
 
 export class NoteAPI {
   static async create(note) {
